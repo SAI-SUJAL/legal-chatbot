@@ -3,7 +3,8 @@ streamlit
 sentence-transformers
 faiss-cpu
 PyMuPDF
-openai==1.12.0
+openai==0.28
+
 python-dotenv
 numpy
 torch
