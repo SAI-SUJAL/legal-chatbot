@@ -41,7 +41,7 @@ def main():
     """
     Streamlit application for legal research chatbot
     """
-    st.title("🏛️ Indian Legal Research Assistant")
+    st.title("🏛️ India's Legal Information Chatbot ")
     
     # Initialize chatbot agents
     query_agent, summarization_agent = initialize_chatbot()
