@@ -1,0 +1,9 @@
+# requirements.txt
+streamlit
+sentence-transformers
+faiss-cpu
+PyMuPDF
+openai
+python-dotenv
+numpy
+torch
