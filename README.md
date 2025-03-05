@@ -38,11 +38,6 @@ streamlit run app.py
 3. Summarization Agent simplifies legal text
 4. User receives clear, concise response
 
-## Contributing  
-Contributions are welcome! Please read the contributing guidelines before making any changes.  
-
----
-
 ## Challenges & Improvements  
 
 ### 1. Ensuring Trust & Explainability  
