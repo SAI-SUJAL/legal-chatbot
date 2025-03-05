@@ -14,7 +14,7 @@ class SummarizationAgent(BaseAgent):
         super().__init__("SummarizationAgent")
         
         # Load OpenAI API key
-        self.client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY", ""))
+        openai.api_key = os.getenv("OPENAI_API_KEY", "")
     
     def process(self, legal_texts):
         """
@@ -30,8 +30,8 @@ class SummarizationAgent(BaseAgent):
             # Combine texts
             combined_text = " ".join(legal_texts)
             
-            # Generate summary using GPT (Updated API format)
-            response = self.client.chat.completions.create(
+            # Generate summary using GPT
+            response = openai.ChatCompletion.create(
                 model="gpt-4o",
                 messages=[
                     {
